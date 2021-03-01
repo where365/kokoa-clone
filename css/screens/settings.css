@@ -1,0 +1,38 @@
+.settings__setting {
+  padding: 20px 0;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  font-size: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.settings__setting i {
+  opacity: 0.8;
+  margin-right: 20px;
+}
+.settings__setting-column-side {
+  opacity: 0.8;
+  margin-right: 20px;
+}
+.settings__setting:last-child {
+  border-bottom: none;
+}
+
+.settings-list {
+  border-bottom: var(--main-border);
+  padding-bottom: 20px;
+}
+.settings-list-two {
+  padding-top: 20px;
+}
+
+.new-mark {
+  background-color: tomato;
+  margin-left: 10px;
+
+  width: 15px;
+  height: 15px;
+  border-radius: 6px;
+  font-size: 10px;
+  color: white;
+}
